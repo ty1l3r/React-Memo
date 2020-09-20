@@ -1,0 +1,16 @@
+. rowMarge {
+    margin: -5%;
+}
+.adjust {
+    padding: -15px !important;
+}
+.hrClasse{
+    background-color: grey !important;
+}
+.styleProps{
+    color: #2a9fd6;
+    font-size: larger;
+}
+.link{
+    color: #2a9fd6 !important;
+}

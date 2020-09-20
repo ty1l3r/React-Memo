@@ -173,7 +173,7 @@ a:hover {
 }
 
 a:not([href]):not([class]) {
-    color: inherit;
+    color: antiquewhite;
     text-decoration: none;
 }
 
