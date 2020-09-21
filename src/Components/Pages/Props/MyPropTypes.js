@@ -46,20 +46,20 @@ function MyPropTypes(props) {
                     </ul>
 <hr className="hrClasse"/>
 
-{/*=================================================================================*/}
+
                     <h5>Le propTypes rendu dans cet element enfant : (via un router) :
                         <span className="styleProps"> {props.somPropType}</span>
                     </h5>
-{/*=================================================================================*/}
+
                 </div>
             </div>
         </div>
     );
 }
-{/*=================================================================================*/}
+
 MyPropTypes.propTypes = {
     somPropType: PropTypes.string.isRequired
 }
-{/*=================================================================================*/}
+
 
 export default MyPropTypes;

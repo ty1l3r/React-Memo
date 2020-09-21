@@ -24,7 +24,7 @@ function Accueil(props) {
                         <br/>
                     <p>
                         Ici pas de grandes folies niveau front. Un simple Bootstrap fera l'affaire ! :) Le code sera
-                        probablement beaucoup plus intéressant à voir que l'interface :)
+                        probablement beaucoup plus intéressant à voir que l'interface :) <hr/>
                         Made by dev for dev !
                     </p>
                         <img src="https://www.inovex.de/blog/wp-content/uploads/2022/01/one-year-of-react-native.png"

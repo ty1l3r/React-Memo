@@ -3,7 +3,7 @@ import Photo1 from "../../../Images/reactHooks.png"
 
 function UseState(props) {
 
-{/*=================================================================================*/}
+
 
     const [monState, setMonState] = useState("Mon state initial");
 
@@ -14,7 +14,6 @@ function UseState(props) {
         setMonState("Mon state initial")
     }
 
-{/*=================================================================================*/}
 
     return (
         <div className="container mt-5 text-center">
@@ -62,13 +61,7 @@ function UseState(props) {
                     </div>
 
 
-                    {/*=================================================================================*/}
 
-                 {/*   <h5>Le props rendu dans cet element enfant : (via un router):
-                        <span className="styleProps"> {props.someProps1}</span>
-                    </h5>*/}
-
-                    {/*=================================================================================*/}
                 </div>
             </div>
 

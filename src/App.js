@@ -8,6 +8,9 @@ import Accueil from "./Components/Pages/Accueil/Accueil";
 import PropTypes from "./Components/Pages/Props/MyPropTypes";
 import UseState from "./Components/Pages/Hooks/UseState";
 import UseEffect from "./Components/Pages/Hooks/UseEffect";
+import Api from "./Components/Pages/Hooks/Api";
+import CustomHook from "./Components/Pages/Hooks/CustomHook";
+import UseMemo from "./Components/Pages/Hooks/UseMemo";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
               <Route path="/propTypes" render={()=><PropTypes somPropType="appProp"/>}/>
               <Route path="/useState" render={()=><UseState/>}/>
               <Route path="/useEffect" render={()=><UseEffect/>}/>
+              <Route path="/api" render={()=><Api/>}/>
+              <Route path="/customHooks" render={()=><CustomHook/>}/>
+              <Route path="/useMemo" render={()=><UseMemo/>}/>
           </Router>
       </div>
 
